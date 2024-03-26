@@ -1,0 +1,1 @@
+I have completed my day 2 task difference between window and document object.

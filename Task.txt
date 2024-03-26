@@ -1,0 +1,89 @@
+Write a blog on the difference between Document and Window Objects.
+
+Document Object:
+
+1. When a web page is loaded, the browser creates a Document Object Model of the page. 
+
+2. The document object represents the whole html document as a tree of Objects
+(HTML, HEAD, BODY, and other HTML tags). It is the root element that represents the html document.
+3. Each HTML document that gets loaded into a window becomes a document object. 
+
+4. The document contains the contents of the page. Using document object, JavaScript can modify, 
+add and delete the HTML elements, attributes CSS styles in the page
+document.open() creates a blank document within the window.
+
+5. The Document Object Model (DOM) is the data representation of the objects that comprise the 
+structure and content of a document on the web. This guide will introduce the DOM, look at how 
+the DOM represents an HTML document in memory and how to use APIs to create web content and applications.
+
+6. The Document Object Model (DOM) is a programming interface for web documents. 
+It represents the page so that programs can change the document structure, style, and content. 
+The DOM represents the document as nodes and objects; that way, programming languages can interact 
+with the page.
+
+7. A web page is a document that can be either displayed in the browser window or as the HTML source. 
+In both cases, it is the same document but the Document Object Model (DOM) representation allows it 
+to be manipulated. As an object-oriented representation of the web page, it can be modified with a 
+scripting language such as JavaScript.
+
+8. window.document returns a reference to the document contained in the window.
+
+9. The Document object is the HTML document that appears in the browser window and serves as an 
+interface for interacting with the web page’s content. The browser generates a Document Object Model 
+of a web page upon loading it.
+
+10. The DOM is a logical tree in a document, with methods allowing programmatic access to change its 
+structure, style, or content.
+
+Document Properties:
+element.innerHTML = new html content//Change the inner HTML of an element
+element.attribute = new value//Change the attribute value of an HTML element
+
+Document Methods:
+document.createElement(element//Create an HTML element
+document.removeChild(element)//Remove an HTML element
+
+Window Object:
+1. The Browser Object Model contains objects that represent the current browser window or tab. 
+
+2. The topmost object in the BOM is the window object representing the window or tab or an iframe sometimes. 
+
+3. Window object has properties like browser history, location and the device’s screen etc. In case of multi 
+tab browser, a window object represents a single tab, but some of its properties like innerHeight, 
+innerWidth and methods like resizeTo() will affect the whole browser window.
+
+4. It is the top most object and outermost element of the object hierarchy.
+
+5. The window object represents a window/tab containing a DOM document where as document object 
+is property of window object that points to the DOM document loaded in that window.
+
+6. window.open() opens a new tab or window.
+
+7. The Window interface represents a window containing a DOM document; the document property points to 
+the DOM document loaded in that window.
+
+8. A window for a given document can be obtained using the document.defaultView property.
+
+10. A global variable, window, representing the window in which the script is running, is exposed to 
+JavaScript code.
+
+11. The Window interface is home to a variety of functions, namespaces, objects, and constructors which 
+are not necessarily directly associated with the concept of a user interface window. However, 
+the Window interface is a suitable place to include these items that need to be globally available. 
+Many of these are documented in the JavaScript Reference and the DOM Reference.
+
+12. The window object represents a window in browser. An object of window is created automatically 
+by the browser.
+
+13. Window is the object of browser, it is not the object of javascript. The javascript objects are string, 
+array, date etc.
+
+Window Properties:
+window.innerHeight - the inner height of the browser window (in pixels)
+window.innerWidth - the inner width of the browser window (in pixels)
+
+Window Methods:
+window.open() - open a new window
+window.close() - close the current window
+window.moveTo() - move the current window
+window.resizeTo() - resize the current window
